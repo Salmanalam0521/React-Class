@@ -1,0 +1,9 @@
+.primary{
+    color: #0000ff;
+}
+.warning{
+    color: rgba(255, 166, 0, 0.998);
+}
+.font-xl{
+    font-size: 72px;
+}

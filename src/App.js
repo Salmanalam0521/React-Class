@@ -11,12 +11,18 @@ import ClassClick from './class_components/ClassClick';
 import EventBind from './class_components/EventBind';
 import ParentComponent from './class_components/ParentComponent';
 import UserGreeting from './class_components/UserGreeting';
+import NameList from './functional_components/NameList';
+import StyleSheet from './functional_components/StyleSheet';
+import Inline from './functional_components/Inline';
+import './appStyles.css'
+import styles from './appStyles.module.css';
+import Form from './class_components/Form';
+
 function App() {
   return (
     <div className='App'>
       
-     <UserGreeting></UserGreeting>
-
+     <Form></Form>
       
       {/* 
       <Counter/>
@@ -31,7 +37,13 @@ function App() {
       <ClassClick></ClassClick>
        <EventBind></EventBind>
        <ParentComponent></ParentComponent>
+       <UserGreeting></UserGreeting>
+       <NameList></NameList>
+       <StyleSheet primary={false}></StyleSheet>
+       <Inline></Inline>
       */}
+      {/* <h1 className='error'>Error</h1>
+     <h1 className={styles.success}>Success</h1> */}
     </div>
   );
 }
